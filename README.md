@@ -7,6 +7,7 @@ After cloning:
 * Run provided `message_queue.bat` in Docker Desktop terminal for RabbitMQ
 
 Test it:
+* In Visual Studio set Catalogue, Client and ConsoleClient as startup projects
 * Open web client `https://localhost:7297/swagger/index.html`
 * Endpoint `https://localhost:7297/Bridge/get-animals` will request a list of animals from database
 * At the same time, the server will push data to Rabbit MQ and the console app will consume and display it
